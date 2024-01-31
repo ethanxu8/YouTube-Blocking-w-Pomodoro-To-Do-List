@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2, 
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "description": "Extension which blocks YouTube w/ Pomodor and to-do list to increase productivity",
+    "permissions": ["storage", "activeTab"],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"], 
+        "persistent": true
+    }, 
+    "icons": {
+        "48": "icon.png"
+    }
+}
